@@ -39,11 +39,7 @@ public class Work {
         }
 
         public static void main(String[] args) {
-            System.out.println(trueOderFalse(1, 5));
-            printNumber(0);
-            System.out.println(anotherPrint(23));
-            printName("Слава");
-            year(2020);
+
         }
 
     }
