@@ -1,4 +1,4 @@
-
+package ru.geekbrains.dz;
 
 public class Work {
 
