@@ -1,6 +1,7 @@
 package ru.geekbrains.dz;
 
 
+import java.util.Arrays;
 
 public class Work {
 
@@ -8,16 +9,18 @@ public class Work {
         int[] list = {0, 1, 1, 1, 0, 1, 0, 1};
         int[] emptyList = new int[8];
         int[][] listDouble = new int[5][5];
-        //неправильно выводит массив
         int [] list2 = {1, 5, 3, 2, 11, 4, 5, 2, 4, 8, 9, 1};
         int [] list3 = {2,2,2,2,2,2,2,2,2,2,2,2};
        reverse(list);
        fullList(emptyList);
        multiplication(list2);
-       d2(listDouble);
-       max(list2);
-       min(list2);
-       comparison(list3);
+       doubleArray(listDouble);
+      int max =  max(list2);
+      int min =  min(list2);
+      boolean isComparison =  isComparison(list3);
+
+        int[] arr = {1, 2, 3, 4};
+        reverseValue(arr, -1);
 
 
         }
@@ -39,7 +42,7 @@ public class Work {
         }
     }
     // Задание 4.
-    public static void d2(int [][] list) {
+    public static void doubleArray(int [][] list) {
         int[][] listDouble = new int[5][5];
         for (int i = 0; i < list.length; i++) {
             list[i][i] = 1;
@@ -70,7 +73,7 @@ public class Work {
     }
 
     // Задание 6.
-    public static boolean comparison(int [] list) {
+    public static boolean isComparison(int [] list) {
         int count;
         if(!(list.length%2==0)) {
             count = list.length / 2 + 1;
@@ -93,5 +96,29 @@ public class Work {
         else return false;
 
     }
+    // Задание 7.
+  public static void reverseValue(int[] arr, int n) {
+
+
+        if(n >= 0) {
+            for(int i = 0; i < n; i++) {
+                int  x = arr[0];
+                arr[0] = arr[arr.length - 1];
+                for(int j = 1; j<arr.length; j++) {
+                  arr[arr.length - j] = arr[arr.length - j - 1];
+                }
+                arr[1] = x;
+            }
+        }
+        else
+            for( int i = 0; i > n; i--) {
+               int x = arr[arr.length - 1];
+               arr[arr.length - 1] = arr[0];
+               for(int j = 1; j < arr.length - 1; j++) {
+                arr[j - 1] = arr[j];
+               }
+               arr[arr.length - 2] = x;
+            }
+  }
 }
 
