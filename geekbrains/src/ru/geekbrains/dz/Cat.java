@@ -1,7 +1,7 @@
 package ru.geekbrains.dz;
 
-public class Cat implements ActionMake {
-    boolean isWin = false;
+public class Cat {
+    boolean isWin;
     private double lengthMaxRun;
     private double heightMaxJump;
 
@@ -10,7 +10,6 @@ public class Cat implements ActionMake {
         this.heightMaxJump = heightMaxJump;
     }
 
-    @Override
     public boolean isWin() {
         return isWin;
     }
@@ -23,30 +22,25 @@ public class Cat implements ActionMake {
         return heightMaxJump;
     }
 
-    @Override
     public void jump() {
         System.out.println("Я прыгаю!");
     }
 
-    @Override
     public void run() {
         System.out.println("Я бегу!");
     }
 
-    @Override
     public void action(Object o) {
         isWin = false;
-        if(o instanceof Treadmill) {
+        if (o instanceof Treadmill) {
             if (this.getLengthMaxRun() >= ((Treadmill) o).getDistance()) {
                 this.run();
-            }
-            else {
+            } else {
                 isWin = true;
                 System.out.println("Слишком длинная дистанция!");
             }
         }
-
-        if(o instanceof  Wall) {
+        if (o instanceof Wall) {
             if (this.getHeightMaxJump() >= ((Wall) o).getHeight()) {
                 this.jump();
             } else {
@@ -55,6 +49,5 @@ public class Cat implements ActionMake {
             }
         }
     }
-
 }
 
