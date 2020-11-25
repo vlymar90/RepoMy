@@ -23,10 +23,12 @@ public class Team {
                         break;
                     }
                 }
-                if (participants[i] instanceof Swimable && obstacles[y] instanceof Watter) {
-                    ((Swimable) participants[i]).swim(obstacles[y]);
-                    if(!participants[i].isReadyDistance()) {
-                        break;
+                if (participants[i] instanceof Swimable) {
+                    if(obstacles[y] instanceof Watter) {
+                        ((Swimable) participants[i]).swim(obstacles[y]);
+                        if (!participants[i].isReadyDistance()) {
+                            break;
+                        }
                     }
                 }
             }

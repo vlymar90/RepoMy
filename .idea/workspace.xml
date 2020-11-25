@@ -11,27 +11,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e28c3fa6-5d2f-453e-89ec-47868aa97134" name="Default Changelist" comment="Решение 7 задачи дз номер 2">
-      <change afterPath="$PROJECT_DIR$/geekbrains/src/ru/geekbrains/dz/Animal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/geekbrains/src/ru/geekbrains/dz/Course.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/geekbrains/src/ru/geekbrains/dz/Duck.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/geekbrains/src/ru/geekbrains/dz/Obstacles.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/geekbrains/src/ru/geekbrains/dz/Participants.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/geekbrains/src/ru/geekbrains/dz/Swimable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/geekbrains/src/ru/geekbrains/dz/Team.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/geekbrains/src/ru/geekbrains/dz/Watter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/geekbrains/src/ru/geekbrains/dz/Cat.java" beforeDir="false" afterPath="$PROJECT_DIR$/geekbrains/src/ru/geekbrains/dz/Cat.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/geekbrains/src/ru/geekbrains/dz/Human.java" beforeDir="false" afterPath="$PROJECT_DIR$/geekbrains/src/ru/geekbrains/dz/Dog.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/geekbrains/src/ru/geekbrains/dz/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/geekbrains/src/ru/geekbrains/dz/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/geekbrains/src/ru/geekbrains/dz/Robot.java" beforeDir="false" afterPath="$PROJECT_DIR$/geekbrains/src/ru/geekbrains/dz/Robot.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/geekbrains/src/ru/geekbrains/dz/Treadmill.java" beforeDir="false" afterPath="$PROJECT_DIR$/geekbrains/src/ru/geekbrains/dz/Treadmill.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/geekbrains/src/ru/geekbrains/dz/Wall.java" beforeDir="false" afterPath="$PROJECT_DIR$/geekbrains/src/ru/geekbrains/dz/Wall.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/geekbrains/ru/geekbrains/dz/Cat.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/geekbrains/ru/geekbrains/dz/Cat.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/geekbrains/ru/geekbrains/dz/Human.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/geekbrains/ru/geekbrains/dz/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/geekbrains/ru/geekbrains/dz/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/geekbrains/ru/geekbrains/dz/Robot.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/geekbrains/ru/geekbrains/dz/Robot.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/geekbrains/ru/geekbrains/dz/Treadmill.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/geekbrains/ru/geekbrains/dz/Treadmill.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/geekbrains/ru/geekbrains/dz/Wall.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/geekbrains/ru/geekbrains/dz/Wall.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/geekbrains/src/ru/geekbrains/dz/Obstacles.java" beforeDir="false" afterPath="$PROJECT_DIR$/geekbrains/src/ru/geekbrains/dz/Obstacles.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/geekbrains/src/ru/geekbrains/dz/Participants.java" beforeDir="false" afterPath="$PROJECT_DIR$/geekbrains/src/ru/geekbrains/dz/Participants.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/geekbrains/src/ru/geekbrains/dz/Swimable.java" beforeDir="false" afterPath="$PROJECT_DIR$/geekbrains/src/ru/geekbrains/dz/Swimable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/geekbrains/src/ru/geekbrains/dz/Team.java" beforeDir="false" afterPath="$PROJECT_DIR$/geekbrains/src/ru/geekbrains/dz/Team.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -158,41 +142,57 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1605990023047" />
-    <state width="1493" height="194" key="GridCell.Tab.0.bottom" timestamp="1606262088341">
+    <state width="1493" height="194" key="GridCell.Tab.0.bottom" timestamp="1606330342523">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="194" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1606262088341" />
-    <state width="1493" height="194" key="GridCell.Tab.0.center" timestamp="1606262088340">
+    <state width="1493" height="194" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1606330342523" />
+    <state width="1493" height="194" key="GridCell.Tab.0.center" timestamp="1606330342523">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="194" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1606262088340" />
-    <state width="1493" height="194" key="GridCell.Tab.0.left" timestamp="1606262088340">
+    <state width="1493" height="194" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1606330342523" />
+    <state width="1493" height="194" key="GridCell.Tab.0.left" timestamp="1606330342522">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="194" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1606262088340" />
-    <state width="1493" height="194" key="GridCell.Tab.0.right" timestamp="1606262088340">
+    <state width="1493" height="194" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1606330342522" />
+    <state width="1493" height="194" key="GridCell.Tab.0.right" timestamp="1606330342523">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="194" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1606262088340" />
-    <state width="1493" height="261" key="GridCell.Tab.1.bottom" timestamp="1605990599389">
+    <state width="1493" height="194" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1606330342523" />
+    <state width="1493" height="261" key="GridCell.Tab.1.bottom" timestamp="1606330260270">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1605990599389" />
-    <state width="1493" height="261" key="GridCell.Tab.1.center" timestamp="1605990599385">
+    <state width="1493" height="261" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1606330260270" />
+    <state width="1493" height="261" key="GridCell.Tab.1.center" timestamp="1606330260270">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1605990599385" />
-    <state width="1493" height="261" key="GridCell.Tab.1.left" timestamp="1605990599385">
+    <state width="1493" height="261" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1606330260270" />
+    <state width="1493" height="261" key="GridCell.Tab.1.left" timestamp="1606330260269">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1605990599385" />
-    <state width="1493" height="261" key="GridCell.Tab.1.right" timestamp="1605990599385">
+    <state width="1493" height="261" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1606330260269" />
+    <state width="1493" height="261" key="GridCell.Tab.1.right" timestamp="1606330260270">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1605990599385" />
+    <state width="1493" height="261" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1606330260270" />
     <state x="396" y="33" key="new project wizard" timestamp="1603743462090">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="396" y="33" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1603743462090" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/geekbrains/src/ru/geekbrains/dz/Team.java</url>
+          <line>10</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/geekbrains/src/ru/geekbrains/dz/Main.java</url>
+          <line>8</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

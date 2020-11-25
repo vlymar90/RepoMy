@@ -1,6 +1,6 @@
 package ru.geekbrains.dz;
 
 public interface Participants {
-    public boolean isReadyDistance();
+    boolean isReadyDistance();
     void printInfo();
 }
