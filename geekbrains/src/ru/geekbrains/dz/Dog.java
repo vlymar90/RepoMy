@@ -1,28 +1,26 @@
 package ru.geekbrains.dz;
 
-public class Human {
-    private boolean isWin;
-    private double lengthMaxRun;
-    private double heightMaxJump;
+public class Dog extends Animal implements Swimable {
+    int maxSwim;
 
-    public Human(double lengthMaxRun, double heightMaxJump) {
-        this.lengthMaxRun = lengthMaxRun;
-        this.heightMaxJump = heightMaxJump;
+    public Dog(String name, String color,int lengthMaxRun, int heightMaxJump, int maxSwim) {
+        super(name, color, lengthMaxRun, heightMaxJump);
+        this.maxSwim = maxSwim;
     }
 
-    public boolean isWin() {
-        return isWin;
+    @Override
+    public void swim(Obstacles o) {
+        if(maxSwim >= o.getDistance()) {
+            System.out.println(getName() + " плывет");
+        }
+        else {
+            setReadyDistance(false);
+            System.out.println(getName() + " Сошел с дистанции");
+        }
+
     }
 
-    public double getLengthMaxRun() {
-        return lengthMaxRun;
-    }
-
-    public double getHeightMaxJump() {
-        return heightMaxJump;
-    }
-
-    public void run() {
+    /* public void run() {
         System.out.println("Я бегу!");
     }
 
@@ -41,12 +39,12 @@ public class Human {
             }
         }
         if (o instanceof Wall) {
-            if (this.getHeightMaxJump() >= ((Wall) o).getHeight()) {
+            if (this.getHeightMaxJump() >= ((Wall) o).getDistance()) {
                 this.jump();
             } else {
                 isWin = true;
                 System.out.println("Слищком высоко!");
             }
         }
-    }
+    } */
 }

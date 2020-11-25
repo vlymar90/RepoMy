@@ -1,13 +1,10 @@
 package ru.geekbrains.dz;
 
-public class Treadmill {
-    private double distance;
+public class Treadmill extends Obstacles {
 
-    public Treadmill(double distance) {
-        this.distance = distance;
+    public Treadmill(int distance) {
+        super(distance);
     }
 
-    public double getDistance() {
-        return distance;
-    }
+
 }

@@ -1,13 +1,8 @@
 package ru.geekbrains.dz;
 
-public class Wall {
-    private double height;
-
-    public Wall(double height) {
-        this.height = height;
+public class Wall extends Obstacles{
+    public Wall(int height) {
+        super(height);
     }
 
-    public double getHeight() {
-        return height;
-    }
 }

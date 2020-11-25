@@ -1,52 +1,69 @@
 package ru.geekbrains.dz;
 
-public class Robot {
-    boolean isWin;
+public class Robot implements Participants, Swimable{
+    int maxSwim;
+    private String model;
+    private boolean readyDistance;
     private double lengthMaxRun;
     private double heightMaxJump;
 
-    public Robot(double lengthMaxRun, double heightMaxJump) {
+    public Robot(double lengthMaxRun, double heightMaxJump, int maxSwim, String model) {
         this.lengthMaxRun = lengthMaxRun;
         this.heightMaxJump = heightMaxJump;
+        this.model = model;
+        this.maxSwim = maxSwim;
+        this.readyDistance = true;
     }
 
-    public boolean isWin() {
-        return isWin;
+    @Override
+    public void swim(Obstacles o) {
+
+            if(maxSwim >= o.getDistance()) {
+                System.out.println(model + " плывет");
+            }
+            else {
+                readyDistance = false;
+                System.out.println(model + " Сошел с дистанции");
+            }
+
+        }
+
+    @Override
+    public void printInfo() {
+        System.out.println("Результат гонки: " + model + " " + readyDistance);
     }
 
-    public double getLengthMaxRun() {
-        return lengthMaxRun;
+    public boolean isReadyDistance() {
+        return readyDistance;
     }
 
-    public double getHeightMaxJump() {
-        return heightMaxJump;
-    }
+
 
     public void jump() {
-        System.out.println("Я прыгаю!");
+        System.out.println(model + " прыгает!");
     }
 
     public void run() {
-        System.out.println("Я бегу!");
+        System.out.println(model +" бежит!");
     }
 
-    public void action(Object o) {
-        isWin = false;
+    public void action(Obstacles o) {
+
         if (o instanceof Treadmill) {
-            if (this.getLengthMaxRun() >= ((Treadmill) o).getDistance()) {
+            if (lengthMaxRun >= ((Treadmill) o).getDistance()) {
                 this.run();
             } else {
-                isWin = true;
-                System.out.println("Слишком длинная дистанция!");
+                readyDistance = false;
+                System.out.println(model + " Сходит с дистанции");
             }
         }
 
         if (o instanceof Wall) {
-            if (this.getHeightMaxJump() >= ((Wall) o).getHeight()) {
+            if (heightMaxJump >= ((Wall) o).getDistance()) {
                 this.jump();
             } else {
-                isWin = true;
-                System.out.println("Слищком высоко!");
+                readyDistance = false;
+                System.out.println(model + " Сходит с дистанции");
             }
         }
     }

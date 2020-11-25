@@ -1,28 +1,15 @@
 package ru.geekbrains.dz;
 
-public class Cat {
-    boolean isWin;
-    private double lengthMaxRun;
-    private double heightMaxJump;
+public class Cat extends Animal {
 
-    public Cat(double lengthMaxRun, double heightMaxJump) {
-        this.lengthMaxRun = lengthMaxRun;
-        this.heightMaxJump = heightMaxJump;
+    public Cat(String name, String color,int lengthMaxRun, int heightMaxJump) {
+        super(name, color, lengthMaxRun, heightMaxJump);
     }
 
-    public boolean isWin() {
-        return isWin;
-    }
 
-    public double getLengthMaxRun() {
-        return lengthMaxRun;
-    }
 
-    public double getHeightMaxJump() {
-        return heightMaxJump;
-    }
 
-    public void jump() {
+    /*public void jump() {
         System.out.println("Я прыгаю!");
     }
 
@@ -41,13 +28,13 @@ public class Cat {
             }
         }
         if (o instanceof Wall) {
-            if (this.getHeightMaxJump() >= ((Wall) o).getHeight()) {
+            if (this.getHeightMaxJump() >= ((Wall) o).getDistance()) {
                 this.jump();
             } else {
                 isWin = true;
                 System.out.println("Слищком высоко!");
             }
         }
-    }
+    } */
 }
 
