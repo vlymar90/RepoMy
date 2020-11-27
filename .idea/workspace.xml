@@ -11,37 +11,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e28c3fa6-5d2f-453e-89ec-47868aa97134" name="Default Changelist" comment="Решение 7 задачи дз номер 2">
-      <change afterPath="$PROJECT_DIR$/geekbrains/src/ru/geekbrains/dz/MyArrayDataException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/geekbrains/src/ru/geekbrains/dz/MyArraySizeException.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/geekbrains/src/ru/geekbrains/dz/Animal.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/geekbrains/src/ru/geekbrains/dz/Cat.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/geekbrains/src/ru/geekbrains/dz/Course.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/geekbrains/src/ru/geekbrains/dz/Dog.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/geekbrains/src/ru/geekbrains/dz/Duck.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/geekbrains/src/ru/geekbrains/dz/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/geekbrains/src/ru/geekbrains/dz/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/geekbrains/src/ru/geekbrains/dz/Obstacles.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/geekbrains/src/ru/geekbrains/dz/Participants.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/geekbrains/src/ru/geekbrains/dz/Robot.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/geekbrains/src/ru/geekbrains/dz/Swimable.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/geekbrains/src/ru/geekbrains/dz/Team.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/geekbrains/src/ru/geekbrains/dz/Treadmill.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/geekbrains/src/ru/geekbrains/dz/Wall.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/geekbrains/src/ru/geekbrains/dz/Watter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/geekbrains/ru/geekbrains/dz/Animal.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/geekbrains/ru/geekbrains/dz/Cat.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/geekbrains/ru/geekbrains/dz/Course.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/geekbrains/ru/geekbrains/dz/Dog.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/geekbrains/ru/geekbrains/dz/Duck.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geekbrains/src/ru/geekbrains/dz/MyArrayDataException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geekbrains/src/ru/geekbrains/dz/MyArraySizeException.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/geekbrains/ru/geekbrains/dz/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/geekbrains/ru/geekbrains/dz/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/geekbrains/ru/geekbrains/dz/Obstacles.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/geekbrains/ru/geekbrains/dz/Participants.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/geekbrains/ru/geekbrains/dz/Robot.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/geekbrains/ru/geekbrains/dz/Swimable.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/geekbrains/ru/geekbrains/dz/Team.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/geekbrains/ru/geekbrains/dz/Treadmill.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/geekbrains/ru/geekbrains/dz/Wall.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/geekbrains/ru/geekbrains/dz/Watter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/geekbrains/ru/geekbrains/dz/MyArrayDataException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/geekbrains/ru/geekbrains/dz/MyArraySizeException.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -164,26 +140,26 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="498" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1536.824@0.0.1536.824" timestamp="1606164628005" />
-    <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1606330920316">
+    <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1606462496110">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1606330920316" />
-    <state width="1493" height="194" key="GridCell.Tab.0.bottom" timestamp="1606338173112">
+    <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1606462496110" />
+    <state width="1493" height="194" key="GridCell.Tab.0.bottom" timestamp="1606463891256">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="194" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1606338173112" />
-    <state width="1493" height="194" key="GridCell.Tab.0.center" timestamp="1606338173112">
+    <state width="1493" height="194" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1606463891256" />
+    <state width="1493" height="194" key="GridCell.Tab.0.center" timestamp="1606463891256">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="194" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1606338173112" />
-    <state width="1493" height="194" key="GridCell.Tab.0.left" timestamp="1606338173112">
+    <state width="1493" height="194" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1606463891256" />
+    <state width="1493" height="194" key="GridCell.Tab.0.left" timestamp="1606463891256">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="194" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1606338173112" />
-    <state width="1493" height="194" key="GridCell.Tab.0.right" timestamp="1606338173112">
+    <state width="1493" height="194" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1606463891256" />
+    <state width="1493" height="194" key="GridCell.Tab.0.right" timestamp="1606463891256">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="194" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1606338173112" />
+    <state width="1493" height="194" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1606463891256" />
     <state width="1493" height="261" key="GridCell.Tab.1.bottom" timestamp="1606336777269">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
