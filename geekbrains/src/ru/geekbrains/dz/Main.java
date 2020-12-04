@@ -3,46 +3,57 @@ package ru.geekbrains.dz;
 
 import java.util.*;
 
-public class Main {
+public class Main implements Runnable {
+    static final int SIZE = 1000000;
+    static final int HALF = SIZE/2;
+    static float[] floats2;
 
-    public static void main(String[] args) {
-////        PhoneDirectory phoneDirectory = new PhoneDirectory();
-////        Man man = new Man("Петров", new ArrayList(Arrays.asList("+79296452345")));
-////        phoneDirectory.add(man);
-//        man.addNumberPhone("+79772445682");
-//        Man man2 = new Man("Иванов", new ArrayList(Arrays.asList("+79772465637")));
-//        phoneDirectory.add(man2);
-//        phoneDirectory.get("Петров");
-//    }
-//}
-
-        int count = 0;
-        ArrayList<String> list = new ArrayList<>(Arrays.asList("ошибка", "исключение", "исключение", "ошибка",
-                "массив", "переменная", "мышь", "мышь", "принтер", "свет", "телефон", "работа", "дом", "машина",
-                "машина", "ошибка"));
-        HashSet<String> set = new HashSet<>(list);
-        System.out.println(set);
-        for (String line : set) {
-            //System.out.println(line + " встречается: " + countRepeat(line, list) + " раз(а).");
-            for(int i = 0; i < list.size(); i++) {
-                if(line.equals(list.get(i))) {
-                    count++;
-                }
-            }
-            System.out.println(line + " встречается: " + count + " раз(а).");
-            count = 0;
-        }
-
+    @Override
+    public void run() {
+        changesArrays(floats2);
     }
 
-    public static int countRepeat(String line, ArrayList<String> list) {
-        int countLine = 0;
-        for (String lineList : list) {
-            if (line.equals(lineList)) {
-                countLine++;
-            }
+    public static void main(String[] args) {
+         outPutTimeMain();
+         outPutTimeThread();
+    }
+
+    public static void outPutTimeMain() {
+      float[] arrays = createArrays();
+      long a = System.currentTimeMillis();
+      arrays = changesArrays(arrays);
+        System.out.println(System.currentTimeMillis() - a);
+    }
+
+    public static void outPutTimeThread() {
+        float[] arrays = createArrays();
+        float[] floats1 = new float[HALF];
+        floats2 = new float[HALF];
+        long a = System.currentTimeMillis();
+        System.arraycopy(arrays, 0, floats1,0, HALF);
+        System.arraycopy(arrays, HALF, floats2, 0, HALF);
+        new Thread(new Main()).start();
+        changesArrays(floats1);
+
+        System.arraycopy(floats1, 0, arrays, 0, HALF);
+        System.arraycopy(floats2, 0, arrays, HALF, HALF);
+        System.out.println(System.currentTimeMillis() - a);
+    }
+
+    public static float[] changesArrays(float[] arrays) {
+        for(int count = 0; count < arrays.length; count++) {
+            arrays[count] = (float) (arrays[count] * Math.sin(0.2f + count/5)
+                    * Math.cos(0.2f + count/5) * Math.cos(0.4f + count/2));
         }
-        return countLine;
+        return arrays;
+    }
+
+    public static float[] createArrays() {
+        float[] arr = new float[SIZE];
+       for(int i = 0; i < arr.length; i++) {
+           arr[i] = 1;
+        }
+        return arr;
     }
 }
 
