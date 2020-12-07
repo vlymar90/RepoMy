@@ -1,17 +1,13 @@
 package ru.geekbrains.dz;
 
 
-import java.util.*;
 
-public class Main implements Runnable {
-    static final int SIZE = 1000000;
+
+
+
+public class Main {
+    static final int SIZE = 10000000;
     static final int HALF = SIZE/2;
-    static float[] floats2;
-
-    @Override
-    public void run() {
-        changesArrays(floats2);
-    }
 
     public static void main(String[] args) {
          outPutTimeMain();
@@ -21,18 +17,20 @@ public class Main implements Runnable {
     public static void outPutTimeMain() {
       float[] arrays = createArrays();
       long a = System.currentTimeMillis();
-      arrays = changesArrays(arrays);
+      changesArrays(arrays);
         System.out.println(System.currentTimeMillis() - a);
     }
 
     public static void outPutTimeThread() {
         float[] arrays = createArrays();
         float[] floats1 = new float[HALF];
-        floats2 = new float[HALF];
+        float[]  floats2 = new float[HALF];
         long a = System.currentTimeMillis();
         System.arraycopy(arrays, 0, floats1,0, HALF);
         System.arraycopy(arrays, HALF, floats2, 0, HALF);
-        new Thread(new Main()).start();
+
+        new Thread(() -> changesArrays(floats2)).start();
+
         changesArrays(floats1);
 
         System.arraycopy(floats1, 0, arrays, 0, HALF);
